@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    background-image: url(images/banner.jpg);
+    height: 80vh; 
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar-nav{
+    float:right;
+}
+.fa-solid {
+    
+    color: white;
+    font-size: 30px !important;
+}
+.navbar .navbar-brand img{
+    height: 10vh;
+    width: 40vh;
+}
+.navbar-nav .nav-item .nav-link{
+    color: white;
+}
+/* welcome-text */
+.text{
+    box-shadow: 0px 0px 7px 4px grey;
+    margin-top: -80px;
+    padding: 10px;
+    background: white;
+}
+/* motivation */
+#motivation img{
+    height: 300px ;
+    width: 600px;
+}
+#motivation{
+    margin-top:100px ;
+}
+/* features */
+.features img{
+    height: 300px ;
+    width: 600px;
+}
+.features{
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+#options{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: rgb(186, 183, 183);
+}
+/* Services */
+#Services{
+    padding-top: 100px;
+    padding-bottom: 100px;
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(images/feature-background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+.Services-box {
+    height: 120px;
+    margin-bottom: 20px;
+}
+.Services-box .Services-left{
+    height: 120px;
+    width: 20%;
+    float: left;
+}
+.Services-box .Services-left .fa-solid{
+   padding-top: 15px!important;
+   font-size: 50px !important;
+}
+.Services-box .Services-right{
+    height: 120px;
+    width: 80%;
+    float: left;
+}
+
+.Services-box .Services-right h3{
+    padding-top: 10px;
+    padding-left: 15px;
+    text-align: left;
+    color: white;
+}
+.Services-box .Services-right p{
+    padding-left: 15px;
+    text-align: left;
+    color: white;
+}
+/* Users */
+#Users{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#Users h1 , i{
+    color: rgb(20, 20, 122);
+}
+#Users .col-md-3{
+    margin: 50px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px 2px rgb(20, 20, 122) ;
+}
+#Users img{
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    margin-left: -60px;
+}
+/*-------------Subscribe------------*/
+#subscribe
+{
+    padding: 50px 20px;
+    background: #013f7e;
+    position: relative;
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+    margin-bottom: -160px;
+}
+#subscribe h3, .subscribe p
+{
+    color: #fff;
+}
+
+#subscribe .input-group
+{
+    border-radius: 30px;
+    background: #fff;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 5px;
+}
+#subscribe .form-control
+{
+    border: none;
+    background: transparent;
+}
+#subscribe .form-control:focus
+{
+    box-shadow: none;
+    background: transparent;
+}
+#subscribe .input-group-append
+{
+    background-image: linear-gradient(to right, #1c03b5, #5c8bef);
+    border-radius: 30px;
+}
+#subscribe .input-group-text
+{
+    background: transparent;
+    border: none;
+    color: #fff;
+}
+#subscribe .btn:focus
+{
+    box-shadow: none;
+}
+
+/*-------------------Footer--------------------*/
+#footer
+{
+    margin-top: 80px;
+    padding: 100px;
+    background-color: #efefef;
+    color: #013f7e;
+}
+
+.footer-logo
+{
+    width: 150px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+#footer h1
+{
+    font-size: 15px;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#footer p
+{
+    font-size: 12px;
+    text-align: left;
+}
+#footer .city
+{
+    margin-left: 37px;
+}
+#footer .row .fa
+{
+    padding-right: 20px;
+    font-size: 15px;
+}
+#footer hr
+{
+    margin-top: 10px;
+}
+#footer .fa-heart-o
+{
+    color: red;
+    font-size: 17px;
+}
+#footer .copyright
+{
+    margin-bottom: -80px;
+    text-align: center;
+    font-size: 15px;
+}
